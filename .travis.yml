@@ -2,7 +2,7 @@ language: generic
 
 matrix:
   include:
-      - os: linux
+    - os: linux
       sudo: required
       env: PYTHON_VERSION=python3 ONNX_ML=1 ONNX_DEBUG=1
       language: python
